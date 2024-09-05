@@ -1,1 +1,51 @@
-<section class="section-contact-us"></section>
+<section class="contact-us">
+  <div class="container">
+    <h2 class="section-name">Contact Us</h2>
+    <div class="form-container">
+      <p class="text-form">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact-form">
+        <input
+          class="form-input"
+          type="text"
+          name="user_name"
+          placeholder="Name"
+          required
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="user_email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          placeholder="Email"
+          required
+        />
+        <input
+          class="form-input"
+          type="tel"
+          name="user_phone"
+          pattern="\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}"
+          placeholder="+380"
+          required
+        />
+        <textarea
+          rows=""
+          cols=""
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <button class="form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="watch-image-container">
+      <img
+        class="watch-image"
+        src=""
+        alt="Rugged Tactical Watch Displayed on Stone in Low Light"
+        width="530"
+      />
+    </div>
+  </div>
+</section>
