@@ -30,22 +30,40 @@
           placeholder="+380"
           required
         />
-        <textarea
-          rows=""
-          cols=""
-          name="user-comment"
-          placeholder="Comment"
-        ></textarea>
+        <textarea name="user-comment" placeholder="Comment"></textarea>
         <button class="form-btn" type="submit">Send</button>
       </form>
     </div>
     <div class="watch-image-container">
-      <img
-        class="watch-image"
-        src=""
-        alt="Rugged Tactical Watch Displayed on Stone in Low Light"
-        width="530"
-      />
+      <picture>
+        <source
+          srcset="
+            ../img/contact-us/contant-us-clock-monitor.png    1x,
+            ../img/contact-us/contant-us-clock-monitor-2x.png 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            ../img/contact-us/contant-us-clock-table.png    1x,
+            ../img/contact-us/contant-us-clock-table-2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/contact-us/contant-us-clock-mobile.png    1x,
+            ../img/contact-us/contant-us-clock-mobile-2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="watch-image"
+          src="../img/about-us/contant-us-clock-monitor.png"
+          alt="Rugged Tactical Watch Displayed on Stone in Low Light"
+          width="335"
+        />
+      </picture>
     </div>
   </div>
 </section>
