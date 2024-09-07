@@ -1,1 +1,75 @@
-<section class="section-hero"></section>
+<section class="section-hero">
+  <div class="hero container">
+    <div class="hero-text-cont">
+      <h1 class="hero-title">
+        Welcome to our <span class="collection-span">collection</span> of
+        premium watches
+      </h1>
+      <p class="hero-text">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+    </div>
+    <div class="photos-link-cont">
+      <ul class="photos-list">
+        <li>
+          <img
+            srcset="
+              ../img/people/people1.png    1x,
+              ../img/people/people1-2x.png 2x
+            "
+            src="../img/people/people1.png"
+            alt="first photo"
+          />
+        </li>
+        <li>
+          <img
+            srcset="
+              ../img/people/people2.png    1x,
+              ../img/people/people2-2x.png 2x
+            "
+            src="../img/people/people2.png"
+            alt="second photo"
+          />
+        </li>
+        <li>
+          <img
+            srcset="
+              ../img/people/people3.png    1x,
+              ../img/people/people3-2x.png 2x
+            "
+            src="../img/people/people3.png"
+            alt="third photo"
+          />
+        </li>
+      </ul>
+      <a class="scroll-down-link" href="#footer">Scroll down</a>
+    </div>
+    <picture class="clock-pic">
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ../img/hero/hero-clock-monitor.png    1x,
+          ../img/hero/hero-clock-monitor-2x.png 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/hero/hero-clock-table.png    1x,
+          ../img/hero/hero-clock-table-2x.png 2x
+        "
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /img/hero/hero-clock-mobile.png    1x,
+          /img/hero/hero-clock-mobile-2x.png 2x
+        "
+      />
+    </picture>
+  </div>
+</section>
