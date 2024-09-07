@@ -50,7 +50,8 @@
   max-width: 335px;
 }
 .model-tag-wrap {
-  margin: 10px;
+  margin-bottom: 20px;
+  width: 279px;
 }
 .title-descr-model {
   font-weight: 600;
@@ -173,6 +174,7 @@
 .main-photo-wrap{
    min-width: 552px;
    margin: 0;
+   padding: 80px 112px;
 }
 .sec-sale-descr{
     max-width: 100%;
@@ -204,9 +206,9 @@ font-size: 14px;
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1280px){
     .container{
-        max-width: 1200px;
+        max-width: 1280px;
         padding: 0 65px;
     }
 
@@ -225,8 +227,8 @@ font-size: 14px;
         margin: 0;
     }
     .main-photo-wrap {
-    min-width: 328px;
-        padding: 0;}
+    min-width: 428px;
+        padding: 80px 50px;}
 
    .sec-sale-descr {
         max-width: 530px;
@@ -238,5 +240,5 @@ font-size: 14px;
     .sale-price {
         margin-bottom: 30px;
     }
-    
+  
 }
