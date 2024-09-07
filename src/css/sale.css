@@ -9,7 +9,6 @@
   margin-bottom: 60px;
 }
 .sale-sec-title {
-  /* font-family: var(--font-family); */
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -54,7 +53,6 @@
   margin: 10px;
 }
 .title-descr-model {
-  /* font-family: var(--font-family); */
   font-weight: 600;
   font-size: 24px;
   line-height: 117%;
@@ -64,7 +62,6 @@
   margin-bottom: 10px;
 }
 .prod-tag {
-  /* font-family: var(--font-family); */
   display: block;
   font-weight: 400;
   font-size: 14px;
@@ -89,7 +86,6 @@
   height: 32px;
   border: transparent;
   background-color: rgba(251, 251, 251, 0.1);
-  /* font-family: var(--font-family); */
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
@@ -98,7 +94,6 @@
   margin-right: 9px;
 }
 .price-before {
-  /* font-family: var(--font-family); */
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -107,7 +102,6 @@
   color: rgba(251, 251, 251, 0.5);
 }
 .prod-descr {
-  /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -130,10 +124,7 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
   padding: 8px 12px;
-  /* width: 128px;
-height: 32px; */
   background-color: transparent;
-  /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
@@ -227,45 +218,25 @@ font-size: 14px;
     }
     .small-img-wrapper {
         max-width: 132px;
+        margin-right:20px;
         
     }
-    .sale-sec-small-imgs-list {
-    }
-    .sale-sec-small-imgs-item {
+    .sale-img-wrapper{
+        margin: 0;
     }
     .main-photo-wrap {
-        max-width: 328px;
+    min-width: 328px;
+        padding: 0;}
 
-    /* max-width: 428px;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    }
-    .sec-sale-descr {
+   .sec-sale-descr {
         max-width: 530px;
+        padding: 60px;
     }
     .model-tag-wrap {
         max-width: 389px;
     }
-    .title-descr-model {
-    }
-    .span-uppercase {
-    }
-    .prod-tag {
-    }
     .sale-price {
+        margin-bottom: 30px;
     }
-    .price-new {
-    }
-    .price-before {
-    }
-    .prod-descr {
-    }
-    .watch-name {
-    }
-    .sale-prod-benefits-list {
-    }
-    .sale-prod-benefits-item {
-    }
-
+    
 }
