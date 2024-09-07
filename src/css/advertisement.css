@@ -1,10 +1,9 @@
-
 /* CLASS FOR BACKGROUND IMAGE THE SECTION */
 
 .advertisement-bg {
     width: 100%;
     background-color: #0c0c0c;
-    background-image: url('/src/img/advertisement/');
+    background-image: url('../img/advertisement/advertisement-mob.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -79,20 +78,20 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .advertisement-bg {
-      background-image: url('../img/advertisement/advertisement-effect-mobile-2x.jpg');
+      background-image: url('../img/advertisement/advertisement-mob@2x.jpg');
     }
   }
   
   @media screen and (min-width: 768px) {
     .advertisement-bg {
       /*width: 100%;*/
-      background-image: url('../img/advertisement/advertisement-effect-table.jpg');
+      background-image: url('../img/advertisement/advertisement-tab.jpg');
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .advertisement-bg {
-        background-image: url('../img/advertisement/advertisement-effect-table-2x.jpg');
+        background-image: url('../img/advertisement/advertisement-tab@2x.jpg');
       }
     }
   }
@@ -100,13 +99,13 @@
   @media screen and (min-width: 1280px) {
     .advertisement-bg {
       /*  width: 100%;*/
-      background-image: url('../img/advertisement/advertisement-effect-monitor.jpg');
+      background-image: url('../img/advertisement/advertisement-ds.jpg');
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .advertisement-bg {
-        background-image: url('../img/advertisement/advertisement-effect-monitor-2x.jpg');
+        background-image: url('../img/advertisement/advertisement-ds@2x.jpg');
       }
     }
   }
