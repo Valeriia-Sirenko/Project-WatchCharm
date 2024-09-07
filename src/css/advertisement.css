@@ -4,7 +4,7 @@
 .advertisement-bg {
     width: 100%;
     background-color: #0c0c0c;
-    background-image: url('/img/advertisement/advertisement-effect-mobile-2x.jpg');
+    background-image: url('/src/img/advertisement/');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
