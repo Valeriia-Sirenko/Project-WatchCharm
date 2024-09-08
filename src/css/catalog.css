@@ -1,11 +1,4 @@
 
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-
-}
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
@@ -76,11 +69,6 @@
 
 @media screen and (min-width: 768px) {
   
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-    margin-bottom: 80px;
-  }
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;
@@ -114,12 +102,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
- 
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-    margin-bottom: 100px;
-  }
   .catalog-list {
     column-gap: 23px;
   }
