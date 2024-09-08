@@ -123,6 +123,7 @@
   .hero {
     column-gap: 407px;
     margin-bottom: 100px;
+    justify-content: space-between;
   }
 
   .hero-dscr-cont {
@@ -146,5 +147,9 @@
   .photos-item:nth-child(2) {
     /* transform: translateX(12px); */
     margin-right: -16px;
+  }
+
+  .hero-picture {
+    width: 1280px;
   }
 }
