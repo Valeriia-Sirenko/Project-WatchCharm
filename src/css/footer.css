@@ -19,7 +19,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 40px;
 }
 
 .logo-and-list-wrapper {
@@ -73,6 +72,7 @@
     border-radius: 16px;
     width: 152px;
     height: 44px;
+    margin-bottom: 20px;
 }
 
 .footer-phone-number {
