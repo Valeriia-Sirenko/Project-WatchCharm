@@ -66,6 +66,7 @@
 
 .phone-number-wrap {
     display: flex;
+    font-style: normal;
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(251, 251, 251, 0.2);
@@ -132,6 +133,7 @@
 
 .google-maps-link {
     font-family: "Gilroy", sans-serif;
+    font-style: normal;
     display: block;
     font-weight: 500;
     font-size: 12px;
