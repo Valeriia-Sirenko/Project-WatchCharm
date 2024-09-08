@@ -59,6 +59,7 @@ border: none;
     .about-us-text {
         padding: 80px 60px 80px 60px;
         border-radius: 50px;
+        width: 704px;
     }
     .about-us-title {
         font-size: 48px;
