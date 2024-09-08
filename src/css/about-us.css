@@ -64,6 +64,9 @@ border: none;
         line-height: 92%;
         margin-bottom: 40px;
     }
+    .about-us-list  {
+        margin-bottom: 60px;
+    }
     .about-us-description {
         font-size: 16px;
         line-height: 125%;
@@ -81,8 +84,5 @@ border: none;
     }
     .about-us-image {
         width: 530px;
-    }
-    .about-us-list  {
-        margin-bottom: 60px;
     }
 }
