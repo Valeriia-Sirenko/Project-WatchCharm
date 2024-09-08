@@ -6,9 +6,10 @@
     background-image: url('/img/advertisement/advertisement-effect-mobile.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    
     border-radius: 30px;
     padding: 60px 28px;
+    background-size: cover; 
   }
   /* CLASS FOR TEXT THE SECTION */
   
