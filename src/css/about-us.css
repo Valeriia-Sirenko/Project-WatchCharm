@@ -88,4 +88,7 @@ border: none;
     .about-us-image {
         width: 530px;
     }
+    .about-us-list  {
+        margin-bottom: 40px;
+    }
 }
