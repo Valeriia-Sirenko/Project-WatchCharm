@@ -5,7 +5,6 @@
 }
 
 .sale-section {
-  background-color: #fff;
   margin-bottom: 60px;
 }
 .sale-sec-title {
@@ -142,7 +141,9 @@
     padding: 0 32px;
   }
 
-  
+  .sale-section {
+    margin-bottom: 80px;
+  }
 .sale-img-wrapper{
    display: flex;
    justify-content: space-between;
@@ -211,6 +212,10 @@ font-size: 14px;
         max-width: 1280px;
         padding: 0 65px;
     }
+
+    .sale-section {
+        margin-bottom: 100px;
+      }
 
     .sale-sec-wrapper {
         display: flex;
