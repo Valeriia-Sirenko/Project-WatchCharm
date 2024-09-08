@@ -1,6 +1,3 @@
-.contact-us {
-  margin-bottom: 60px;
-}
 .section-name {
   font-weight: 600;
   font-size: 32px;
@@ -93,14 +90,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contact-us {
-    margin-bottom: 80px;
-  }
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .section-name {
     font-size: 48px;
     margin-bottom: 40px;
@@ -136,14 +125,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contact-us {
-    margin-bottom: 100px;
-  }
-  .container {
-    max-width: 1280px;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
   .container-block {
     display: flex;
     justify-content: center;
