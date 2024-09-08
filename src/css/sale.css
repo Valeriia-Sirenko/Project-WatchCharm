@@ -50,7 +50,7 @@
 }
 .model-tag-wrap {
   margin-bottom: 20px;
-  width: 279px;
+  max-width: 279px;
 }
 .title-descr-model {
   font-weight: 600;
@@ -104,10 +104,11 @@
 .prod-descr {
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 28px;
+  max-width: 267px;
 }
 .watch-name {
   text-transform: capitalize;
@@ -177,8 +178,11 @@
    margin: 0;
    padding: 80px 112px;
 }
+
+
 .sec-sale-descr{
     max-width: 100%;
+    margin-bottom: 60px;
 }
 
 .model-tag-wrap {
@@ -196,6 +200,7 @@
 }
 .prod-descr {
     font-size: 16px;
+    max-width: 570px;
 }
 
 .sale-prod-benefits-list {
@@ -227,6 +232,25 @@ font-size: 14px;
         max-width: 132px;
         margin-right:20px;
         
+    }
+    .picture-test{
+        width: 96px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .picture-test.main-photo{
+        width: 328px;
+        height: 398px;
+        overflow: hidden;
+    }
+
+    .image-test{
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    }
+
+    .image-test:hover {
+     transform: scale(1.5);
     }
     .sale-img-wrapper{
         margin: 0;
