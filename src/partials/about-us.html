@@ -1,1 +1,50 @@
-<section class="section-about-us"></section>
+<section class="section-about-us">
+  <div class="container-about-us container">
+    <div class="about-us-text">
+      <h2 class="about-us-title">About Us</h2>
+      <ul class="about-us-list">
+        <li class="about-us-description">
+          Welcome to our premium watch collection, where luxury and style meet
+          functionality and precision. Our selection of timepieces embodies the
+          very best in Swiss craftsmanship and engineering, ensuring that you'll
+          always have a reliable and stylish accessory on your wrist.
+        </li>
+        <li class="about-us-description">
+          At our premium watch collection, we believe that a watch is more than
+          just a timekeeping device – it's a statement piece that reflects your
+          personality and style. So why settle for anything less than the best?
+        </li>
+      </ul>
+      <button class="about-us-btn" type="button">View catalog</button>
+    </div>
+    <picture class="picture-about-us">
+      <source
+        srcset="
+          ./img/about-us/about-us-clock-mobile.png    1x,
+          ./img/about-us/about-us-clock-mobile-2x.png 2x
+        "
+        media="(max-width:767px)"
+      />
+      <source
+        srcset="
+          ./img/about-us/about-us-clock-table.png    1x,
+          ./img/about-us/about-us-clock-table-2x.png 2x
+        "
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="
+          ./img/about-us/about-us-clock-moritor.png    1x,
+          ./img/about-us/about-us-clock-moritor-2x.png 2x
+        "
+        media="(min-width:1280px)"
+      />
+      <img
+        class="about-us-image"
+        src="./img/about-us/about-us-clock-moritor.png"
+        alt=""
+        width="704"
+      />
+    </picture>
+  </div>
+</section>
