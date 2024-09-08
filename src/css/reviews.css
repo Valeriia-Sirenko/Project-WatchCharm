@@ -82,7 +82,8 @@
 
   .reviews-list {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 16px;
   }
   .reviews-section-item {
     width: calc(100% - 16px) / 2;
@@ -120,5 +121,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+  }
+  .reviews-section-item {
+    width: calc(100% - 2 * 20px) / 3;
   }
 }
