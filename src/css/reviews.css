@@ -1,0 +1,110 @@
+.section-reviews {
+}
+
+.reviews-container {
+  margin: 0 20px;
+  margin-bottom: 60px;
+}
+.reviews-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.reviews-list {
+  padding: 0;
+}
+.reviews-section-item {
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 32px 36px;
+  height: 262px;
+  width: 100%;
+}
+.reviews-section-image img {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.reviews-cart-content {
+}
+.reviews-cart-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+}
+.reviews-cart-text {
+  max-width: 263px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+  margin-bottom: 32px;
+}
+
+.section-item-2,
+.section-item-3 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section-item-2 {
+    display: block;
+  }
+  .reviews-container {
+    padding: 0 32px;
+    margin-bottom: 80px;
+  }
+  .reviews-list {
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .reviews-section-item {
+  }
+  .reviews-title {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .reviews-cart-title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .reviews-cart-text {
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-item-3 {
+    display: block;
+  }
+  .reviews-container {
+    padding: 0 65px;
+    margin-bottom: 100px;
+  }
+
+  .reviews-list {
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
