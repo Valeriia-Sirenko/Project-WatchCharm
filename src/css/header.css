@@ -5,6 +5,14 @@
   align-items: center;
   justify-content: space-between;
 }
+.page-header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.page-header.container {
+  margin-bottom: 0;
+}
+
 .nav-menu,
 .social-list {
   display: none;
