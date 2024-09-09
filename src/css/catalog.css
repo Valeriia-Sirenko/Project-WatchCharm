@@ -1,10 +1,8 @@
-
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 .catalog-list {
@@ -33,7 +31,6 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 8px;
 }
 .catalog-item-price {
@@ -68,7 +65,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;

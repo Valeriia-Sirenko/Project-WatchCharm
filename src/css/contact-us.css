@@ -3,7 +3,6 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 .form-container {
@@ -51,7 +50,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
-  color: #0c0c0c;
   outline: none;
   resize: none;
 }

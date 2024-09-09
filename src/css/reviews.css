@@ -8,12 +8,10 @@
   padding: 0 20px;
 } */
 .reviews-title {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 .reviews-list {
@@ -44,17 +42,14 @@
   align-items: center;
   justify-content: center;
   /* margin-bottom: 8px; */
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #0c0c0c;
 }
 .reviews-cart-text {
   /* max-width: 263px; */
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
