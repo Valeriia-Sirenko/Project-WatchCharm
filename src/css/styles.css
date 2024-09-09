@@ -5,6 +5,7 @@
   |============================
 */
 /* Common styles */
+@import url('../font-gilroy/fonts.css');
 @import url('./reset.css');
 
 /* Основні стилі */

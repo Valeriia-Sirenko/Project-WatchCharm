@@ -120,7 +120,7 @@
 /*  mobile menu */
 
 @media screen and (min-width: 1280px) {
-  .mobile-menu {
+  .mobile-menu-container {
     display: none;
   }
 }
@@ -134,7 +134,7 @@
     background-image: url('/img/menu/menu-background-clock-big.jpg');
   }
 }
-.mobile-menu.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

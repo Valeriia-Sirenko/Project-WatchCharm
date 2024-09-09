@@ -6,7 +6,7 @@
   background-image: url('/img/advertisement/advertisement-effect-mobile.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   border-radius: 30px;
   padding: 60px 28px;
 }
