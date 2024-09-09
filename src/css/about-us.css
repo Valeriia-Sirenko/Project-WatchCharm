@@ -1,17 +1,4 @@
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-  margin-bottom: 0;
-}
-ul {
-    list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-}
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-}
+
 .container-about-us {
     width: 375px;
     display: flex;
@@ -20,7 +7,8 @@ ul {
     box-sizing: border-box;
 }
 .about-us-text {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 40px 20px 40px 20px;
     background-color: #f3f3f3;
     border-radius: 30px;
@@ -40,6 +28,7 @@ margin-bottom: 28px;
     margin-bottom: 40px;
 }
 .about-us-description {
+    display: block;
     font-weight: 500;
 font-size: 14px;
 line-height: 129%;
@@ -63,21 +52,22 @@ border: none;
 }
 
 @media screen and (min-width:768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
     .container-about-us {
+        width: 768px;
         gap: 40px;
     }
     .about-us-text {
         padding: 80px 60px 80px 60px;
         border-radius: 50px;
+        width: 704px;
     }
     .about-us-title {
         font-size: 48px;
         line-height: 92%;
+        margin-bottom: 40px;
+    }
+    .about-us-list  {
+        margin-bottom: 60px;
     }
     .about-us-description {
         font-size: 16px;
@@ -86,12 +76,8 @@ border: none;
 }
 
 @media screen and (min-width:1280px) {
-    .container {
-        width: 1280px;
-        padding-left: 65px;
-        padding-right: 65px;
-    }
     .container-about-us {
+        width: 1280px;
         display: flex;
         flex-direction: row;
         gap: 40px;
@@ -101,5 +87,8 @@ border: none;
     }
     .about-us-image {
         width: 530px;
+    }
+    .about-us-list  {
+        margin-bottom: 40px;
     }
 }
