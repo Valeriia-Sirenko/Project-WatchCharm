@@ -1,0 +1,268 @@
+/* .container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+.sale-section {
+  margin-bottom: 60px;
+}
+.sale-sec-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.sale-sec-small-imgs-list {
+  display: flex;
+  max-width: 335px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.sale-sec-small-imgs-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: rgba(243, 243, 243, 1);
+  max-width: calc((100% - 15px) / 4);
+  max-height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 14px;
+}
+.main-photo-wrap {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  background-color: rgba(243, 243, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.sec-sale-descr {
+  border-radius: 30px;
+  background-color: #3350e9;
+  padding: 48px 28px;
+  max-width: 335px;
+}
+.model-tag-wrap {
+  margin-bottom: 20px;
+}
+.title-descr-model {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.prod-tag {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+
+.sale-price {
+  display: flex;
+  justify-items: flex-start;
+  align-items: baseline;
+  margin-bottom: 28px;
+}
+.price-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  border: transparent;
+  background-color: rgba(251, 251, 251, 0.1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-right: 9px;
+}
+.price-before {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.prod-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+.watch-name {
+  text-transform: capitalize;
+}
+.span-uppercase {
+  text-transform: uppercase;
+}
+.sale-prod-benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sale-prod-benefits-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  color: #fbfbfb;
+}
+
+.sale-prod-benefits-item:not(:first-child) {
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  /* .container {
+    max-width: 768px;
+    padding: 0 32px;
+  } */
+
+  .sale-section {
+    margin-bottom: 80px;
+  }
+  .sale-img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .sale-sec-title {
+    font-size: 48px;
+  }
+  .sale-sec-small-imgs-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 132px;
+    margin: 0;
+  }
+  .sale-sec-small-imgs-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .sale-sec-small-imgs-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+    background-color: rgba(243, 243, 243, 1);
+    min-width: 132px;
+    min-height: 132px;
+    padding: 16px 18px;
+  }
+
+  .main-photo-wrap {
+    min-width: 552px;
+    margin: 0;
+    padding: 80px 112px;
+  }
+
+  .sec-sale-descr {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .model-tag-wrap {
+    margin: 0 0 20px 0;
+  }
+  .title-descr-model {
+    font-size: 32px;
+    line-height: 1.12;
+    max-width: 440px;
+    margin-right: auto;
+  }
+
+  .price-new {
+    font-size: 20px;
+  }
+  .prod-descr {
+    font-size: 16px;
+    max-width: 584px;
+  }
+
+  .sale-prod-benefits-list {
+    max-width: 398px;
+  }
+  .sale-prod-benefits-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* .container{
+        max-width: 1280px;
+        padding: 0 65px;
+    } */
+
+  /* .sale-section {
+    margin-bottom: 100px;
+  } */
+
+  .sale-sec-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .small-img-wrapper {
+    max-width: 132px;
+    margin-right: 20px;
+  }
+  .picture-test {
+    width: 96px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .picture-test.main-photo {
+    width: 328px;
+    height: 398px;
+    overflow: hidden;
+  }
+
+  .image-test {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .image-test:hover {
+    transform: scale(1.3);
+  }
+  .sale-img-wrapper {
+    margin: 0;
+  }
+  .main-photo-wrap {
+    min-width: 428px;
+    padding: 80px 50px;
+  }
+
+  .sec-sale-descr {
+    max-width: 530px;
+    padding: 60px;
+    margin-bottom: 0;
+  }
+  .model-tag-wrap {
+    max-width: 389px;
+  }
+  .sale-price {
+    margin-bottom: 30px;
+  }
+}
