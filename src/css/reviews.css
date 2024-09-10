@@ -1,7 +1,7 @@
-.section-reviews {
-  margin-bottom: 60px;
-}
 
+.reviews-container {
+  margin: 0 20px;
+}
 /* .reviews-container, .container {
   max-width: 375px;
   margin: 0 auto;
