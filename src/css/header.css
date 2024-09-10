@@ -57,6 +57,10 @@
     letter-spacing: -0.4px;
     padding: 34px 0;
   }
+  .social-links-item {
+    width: 34px;
+    height: 34px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -126,6 +130,8 @@
   top: 0;
   right: 0;
   background-image: url(/img/menu/menu-background-clock-small.jpg);
+  background-position: center;
+  background-size: cover;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
@@ -151,7 +157,6 @@
 
 .mob-menu-container {
   position: relative;
-  padding-top: 240px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -162,6 +167,7 @@
 
 .mob-nav {
   margin-bottom: auto;
+  margin-top: auto;
 }
 .mob-menu-btn {
   position: absolute;
@@ -201,22 +207,27 @@
 }
 
 .social-links-item {
+  display: flex;
   justify-content: center;
   gap: 40px;
+  align-items: center;
+  border-radius: 10px;
   padding: 8px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+}
+.social-links-link {
+  display: flex;
 }
 
 .icon-social-links {
   fill: #fbfbfb;
 }
-
-.social-links-item {
-  border: 1px solid rgba(251, 251, 251, 0.1);
+/* mob-menu-svg-icon-social .social-links-item {
   border-radius: 10px;
-  padding: 8px;
-
   height: 34px;
-}
+} */
 .home-link {
   position: relative;
 }
