@@ -44,6 +44,7 @@
   height: 48px;
   background-color: #3350e9;
   border: none;
+  padding: 15px 37px;
 }
 .about-us-btn:hover,
 .about-us-btn:focus {
